@@ -1,0 +1,68 @@
+.autobuild-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  color: #fff;
+}
+
+.build-card, .compatibility-card {
+  background: rgba(0,0,0,0.55);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  backdrop-filter: blur(6px);
+}
+
+.component-row {
+  display: grid;
+  grid-template-columns: 120px 1fr 100px;
+  margin: 0.4rem 0;
+  padding: 0.2rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.component-name {
+  color: #aaa;
+}
+
+.component-price {
+  text-align: right;
+}
+
+.loader {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.error-box {
+  background: #a30000;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.total-price {
+  margin-top: 1rem;
+  font-size: 18px;
+}
+
+.ok {
+  color: #00e676;
+  font-size: 18px;
+}
+
+.regen-btn {
+  width: 100%;
+  padding: 1rem;
+  font-size: 18px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.regen-btn:hover {
+  background: #0064d3;
+}
