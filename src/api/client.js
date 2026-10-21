@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const client = axios.create({
-  baseURL: 'https://pc-configurator-backend-n6q0.onrender.com/api](https://pc-configurator-backend-n6q0.onrender.com/api)', // Твой бэкенд
+  baseURL: 'https://pc-configurator-backend-n6q0.onrender.com/api', // Твой бэкенд
 });
 
 // Автоматически добавляем токен ко всем запросам
